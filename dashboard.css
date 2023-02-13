@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 223, 223);
+    
+}
+#back {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #8fff1e;
+    width: 160px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+#back:hover, #back:focus, #back:active {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+}
+#back a {
+    text-decoration: none;
+}
+/*profile start here*/
+.user-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 35%;
+    background-color: #dcdcdc;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+}
+.profile-top{
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.profile-top img{
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.profile-top .profile-info{
+    margin-top: 1rem;
+}
+.profile-bottom{
+    padding: 3rem 3rem 1rem 3rem;
+}
+.profile-bottom .profile-info{
+    margin-top: 1px;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50,50,93,0.25) 0px 13px 27px -5px, rgba(0,0,0,0.3) 0px 8px 16px -8px;
+    transition: 0.5s ease;
+}
+
+.profile-bottom .profile-info:hover{
+    box-shadow: rgba(60,64,67,0.3) 0px 1px 2px 0px, rgba(60,64,67,0.15) 0px 1px 3px 1px;
+}
+/*profile end here*/
+
+
+/*search button*/
+.search-box {
+    margin-left: 35%;
+    margin-top: 50px;
+    width: 350px;
+    border: 03px solid #009933;
+    padding: 08px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+input{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 300px;
+}
+.icon-search {
+    color: #009933;
+    font-size: 20px;
+}
+/*search end */
+
+/* album start */
+.album{
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin: 30px;
+}
+.card{
+    width: 23%;
+    box-shadow: 0 0 4px 3px rgb(118, 115, 115);
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+.us,.usid,.tit {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+}
+
+
+
+#ph {
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 24px;
+    border-radius: 20px;
+    border: 2px solid #b4b1a2;
+    transition-duration: 0.4s;
+}
+#ph a{
+    text-decoration: none;
+}
+#ph:hover {
+
+    background-color: rgb(98, 98, 226); 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+
+#de {
+    color: white;
+    background-color: #e5b466;
+    padding: 10px 24px;
+    border-radius: 20px;
+    border: 2px solid #b4b1a2;
+    transition-duration: 0.4s;
+}
+#de:hover {
+    background-color: #f44336; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* album end */
+
+
